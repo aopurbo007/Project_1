@@ -406,83 +406,6 @@ header {
   text-align: center;
 }
 
-.vacation {
-  padding-bottom: 4rem;
-  margin-bottom: 10rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("assets/vacation.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.vacation__container {
-  position: relative;
-}
-
-.vacation__container :is(.section__title, .section__subtitle) {
-  color: var(--white);
-}
-
-.vacation__video {
-  position: absolute;
-  top: 18rem;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: 450px;
-  padding: 1rem;
-}
-
-.vacation__video video {
-  width: 100%;
-  display: block;
-  border-radius: 5px;
-}
-
-.destination__grid {
-  max-width: 900px;
-  margin: 4rem auto 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-}
-
-.destination__card {
-  position: relative;
-  display: grid;
-  place-content: center;
-}
-
-.destination__card img {
-  max-width: 200px;
-  border-radius: 100%;
-}
-
-.destination__card h4 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
-  font-family: var(--font-heading);
-  color: var(--white);
-}
-
-.discount {
-  background: linear-gradient(rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.8)),
-    url("assets/discount.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-align: center;
-}
-
-.discount__container .btn {
-  margin-top: 1rem;
-}
-
 .gallery__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -520,14 +443,14 @@ footer {
   margin: 1rem 0;
 }
 
-.social__icons span {
+.social__icons a {
   font-size: 1.2rem;
   color: var(--text-dark);
   cursor: pointer;
   transition: 0.3s;
 }
 
-.social__icons span:hover {
+.social__icons a:hover {
   color: var(--secondary-color);
 }
 
